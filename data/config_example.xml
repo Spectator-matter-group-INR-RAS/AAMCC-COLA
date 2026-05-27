@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<program>
+    <generator name="CGlauber" fermiMom="1" name_a="Pb" name_b="Pb" energy="5.02e3" is_collider="1"/>
+    <converter name="CPreEquilibrium" clustering_type="GMST" stat_exen_type="7" consider_coulomb="0"/>
+    <converter name="G4DeexcitationHandler" />
+    <writer name="CRootWriter" file_name="PbPb_COLA.root" format="AAMCC" />
+</program>
