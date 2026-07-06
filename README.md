@@ -8,7 +8,7 @@ This repository is an example of using COLA library to assemble a Monte-Carlo pi
 - CMake 3.24+
 - Root 6.32+ 
     - Versions 6.12+ should generally be fine, as they support C++17, but they were not tested.
-- Geant4 v11.4+ **NOTE that SMM (which is required for Deexcitation module) is broken in 11.4.0 and 11.4.1, and patch with fix is yet to be released**. See [#100](https://github.com/Geant4/geant4/pull/100) for info for the fix or use fixMF branch of [this fork of 11.4.1](https://github.com/apBUSampK/geant4/tree/fixMF).
+- Geant4 v11.4.2+.
 - We encourage you to install [COLA library]() and needed modules ([CGlauber](https://github.com/Spectator-matter-group-INR-RAS/CGlauber), [CPreEquilibrium](https://github.com/Spectator-matter-group-INR-RAS/CClustering), [DeexcitationHandler](https://github.com/Spectator-matter-group-INR-RAS/DeexcitationHandler) and [CRoot](https://github.com/Spectator-matter-group-INR-RAS/CRoot)) to be able to use other modules later, **however this project can use their built-in versions**
 ## Build
 
